@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns:data xmlns:ns="urn://egisso-ru/msg/10.06.S/1.0.5" xmlns:ns1="urn://egisso-ru/types/package-RAF/1.0.6" xmlns:ns2="urn://egisso-ru/types/assignment-fact/1.0.6" xmlns:ns3="urn://egisso-ru/types/prsn-info/1.0.3" xmlns:ns4="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1" xmlns:ns5="urn://egisso-ru/types/basic/1.0.4">
+  <ns1:package>
+    <ns1:packageId>20220224-0000-0000-0000-000000000002</ns1:packageId>
+    <ns1:elements>
+      <ns1:fact>
+        <ns2:oszCode>2594.000001</ns2:oszCode>
+        <ns2:mszReceiver>
+          <ns3:SNILS>37768079550</ns3:SNILS>
+          <ns4:FamilyName>Иванов</ns4:FamilyName>
+          <ns4:FirstName>Иван</ns4:FirstName>
+          <ns4:Patronymic>Петрович</ns4:Patronymic>
+          <ns3:Gender>Male</ns3:Gender>
+          <ns3:BirthDate>2016-01-01</ns3:BirthDate>
+          <ns3:IdentityDoc>
+            <ns5:BirthCertificate>
+              <ns5:Series>III-AB</ns5:Series>
+              <ns5:Number>232323</ns5:Number>
+              <ns5:issueDate>2016-01-10</ns5:issueDate>
+              <ns5:Issuer>Отделом ЗАГС города Серова</ns5:Issuer>
+            </ns5:BirthCertificate>
+          </ns3:IdentityDoc>
+        </ns2:mszReceiver>
+        <ns2:lmszId>A0000001-0000-0000-0000-000000000156</ns2:lmszId>
+        <ns2:categoryId>A0000002-0000-0000-0000-000000000149</ns2:categoryId>
+        <ns2:decisionDate>2022-02-24</ns2:decisionDate>
+        <ns2:dateStart>0000-00-00</ns2:dateStart>
+        <ns2:needsCriteria>
+          <ns2:usingSign>1</ns2:usingSign>
+          <ns2:criteria>Закон Свердловской области от 15.07.2013 N 78-ОЗ (ред. от 22.03.2018) "Об образовании в Свердловской области"</ns2:criteria>
+        </ns2:needsCriteria>
+        <ns2:assignmentInfo>
+          <ns2:exemptionForm>
+            <ns2:amount>100</ns2:amount>
+            <ns2:okeiCode>744</ns2:okeiCode>
+            <ns2:monetization>0</ns2:monetization>
+            <ns2:equivalentAmount>782.37</ns2:equivalentAmount>
+          </ns2:exemptionForm>
+        </ns2:assignmentInfo>
+        <ns1:uuid>A0000003-0000-0000-0000-000000000001</ns1:uuid>
+      </ns1:fact>
+      <ns1:fact>
+        <ns2:oszCode>2594.000001</ns2:oszCode>
+        <ns2:mszReceiver>
+          <ns3:SNILS>52266034461</ns3:SNILS>
+          <ns4:FamilyName>Петров</ns4:FamilyName>
+          <ns4:FirstName>Петр</ns4:FirstName>
+          <ns4:Patronymic>Петрович</ns4:Patronymic>
+          <ns3:Gender>Male</ns3:Gender>
+          <ns3:BirthDate>2016-01-03</ns3:BirthDate>
+          <ns3:IdentityDoc>
+            <ns5:BirthCertificate>
+              <ns5:Series>II-AB</ns5:Series>
+              <ns5:Number>111111</ns5:Number>
+              <ns5:issueDate>2016-03-10</ns5:issueDate>
+              <ns5:Issuer>Отделом ЗАГС города Екатеринбург</ns5:Issuer>
+            </ns5:BirthCertificate>
+          </ns3:IdentityDoc>
+        </ns2:mszReceiver>
+        <ns2:lmszId>A0000001-0000-0000-0000-000000000156</ns2:lmszId>
+        <ns2:categoryId>A0000002-0000-0000-0000-000000000148</ns2:categoryId>
+        <ns2:decisionDate>2021-03-10</ns2:decisionDate>
+        <ns2:dateStart>2021-03-10</ns2:dateStart>
+        <ns2:documents>
+          <ns2:document>
+            <ns2:title>Протокол ПМПК</ns2:title>
+            <ns2:series>11</ns2:series>
+            <ns2:number>1111</ns2:number>
+            <ns2:issueDate>2021-03-10</ns2:issueDate>
+            <ns2:authority>Территориальная психолого-медико-педагогическая комиссия</ns2:authority>
+            <ns2:startDate>2021-03-10</ns2:startDate>
+          </ns2:document>
+        </ns2:documents>
+        <ns2:needsCriteria>
+          <ns2:usingSign>0</ns2:usingSign>
+        </ns2:needsCriteria>
+        <ns2:assignmentInfo>
+          <ns2:exemptionForm>
+            <ns2:amount>100</ns2:amount>
+            <ns2:okeiCode>744</ns2:okeiCode>
+            <ns2:monetization>0</ns2:monetization>
+            <ns2:equivalentAmount>1912.57</ns2:equivalentAmount>
+          </ns2:exemptionForm>
+        </ns2:assignmentInfo>
+        <ns1:uuid>A0000003-0000-0000-0000-000000000002</ns1:uuid>
+      </ns1:fact>
+    </ns1:elements>
+  </ns1:package>
+</ns:data>
