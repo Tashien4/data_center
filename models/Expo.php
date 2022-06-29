@@ -595,7 +595,10 @@ public function search($params,$upd)
         $query = Expo::find()->joinWith(['efio'])->joinWith(['kmsasgo'])->joinWith(['kmsasgo_name'])->joinWith(['paspdoks'])->joinWith(['lgdoks']);
 
         $dataProvider = new ActiveDataProvider([
-            'query' => $query,
+            'query' => $query,   'pagination' => [
+                'pagesize' => 10,
+                    ],
+                
            // 'sort'=> ['defaultOrder' => [['efio']['fam'] => SORT_ASC]]
         ]);
       //  print_R($query);

@@ -46,7 +46,7 @@ for($i=$per+4;$i>($per-4);$i--)
     $mon[$i]=Site::fromperiod($i,1);
 
 if($my_upd['role']==1) {
-   // echo '<tr><td  class="rtd">Текущий период:</td><td>'.$form->field($model,'change_mod')->dropDownList($mon,array('style'=>'width:50%'))->label(false).'</td></tr>';
+    echo '<tr><td  class="rtd">Текущий период:</td><td>'.$form->field($model,'change_mod')->dropDownList($mon,array('style'=>'width:50%'))->label(false).'</td></tr>';
     $model->role=$upd['role'];
     echo '<tr><td  class="rtd">Роль в системе:</td><td>'.$form->field($model,'role')->dropDownList(['0'=>'Пользователь','1'=>'Администратор'],array('style'=>'width:50%'))->label(false).'</td></tr>';
 };
