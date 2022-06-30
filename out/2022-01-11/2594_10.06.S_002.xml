@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ns:data xmlns:ns="urn://egisso-ru/msg/10.06.S/1.0.5" xmlns:ns1="urn://egisso-ru/types/package-RAF/1.0.6" xmlns:ns2="urn://egisso-ru/types/assignment-fact/1.0.6" xmlns:ns3="urn://egisso-ru/types/prsn-info/1.0.3" xmlns:ns4="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1" xmlns:ns5="urn://egisso-ru/types/basic/1.0.4">
-  <ns1:package>
-    <ns1:packageId>20220111-0000-0000-0000-000000000002</ns1:packageId>
-    <ns1:elements/>
-  </ns1:package>
-</ns:data>
