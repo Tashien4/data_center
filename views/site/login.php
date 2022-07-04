@@ -72,8 +72,7 @@ echo	$form->field($model, 'username')->widget(
                                 </td></tr>
   </table>
 <br>
-                              
-При возникновении вопросов звоните 75-715 или 75-627
+
 
     <?php ActiveForm::end(); ?>
 
